@@ -2,6 +2,10 @@
 	"folders": [
 		{
 			"path": "."
+		},
+		{
+			"name": "one-logicaprogramacion",
+			"path": "../one-logicaprogramacion"
 		}
 	],
 	"settings": {}
