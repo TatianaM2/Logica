@@ -39,6 +39,21 @@
 		imcCalculado = calcularImc(pesoInformado,alturaInformado)
 	
 		imprimir(nombre + ", su imc calculado es: " + imcCalculado);
+
+		if(imcCalculado<18.5){
+			imprimir("IMC Abajo de lo recomendado");
+		}
+		if(imcCalculado>=18.5 && imcCalculado<25){
+			imprimir("IMC dentro del intervalo normal");
+		}
+		if(imcCalculado>=25 && imcCalculado<30){
+			imprimir("IMC en sobrepreso");
+		}
+		if(imcCalculado>=30){
+			imprimir("IMC considerado como obesidad");
+		}
+
+	
 	
 	</script>
 </body>
