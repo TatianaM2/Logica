@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>PROGRAMA DE AÑO MUNDIAL DE LA  FIFA</title>
+</head>
+<h1>PROGRAMA DE AÑO MUNDIAL DE LA  FIFA</h1>
+<body>
+	<script>
+
+		function saltarLinea() {
+	
+			document.write("<br>");	
+			document.write("<br>");	
+			document.write("<br>");	
+	
+		}  
+	
+		function imprimir(frase) {
+	
+			document.write(frase);
+			saltarLinea();
+	
+		}
+	      
+        var anhoMundial=1930;
+        var limite=parseInt(prompt("Ingrese el año para calcular los años de los Mundiales"));
+    
+        while(anhoMundial<=limite){
+
+        
+        imprimir("Hubo Mundial de la FIFA en el año "+anhoMundial);
+        var anhoMundial=anhoMundial+4;
+        }
+	
+        imprimir("fin");
+	</script>
+</body>
+</html>
