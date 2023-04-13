@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>CACULAR LA MEDIA DE EDAD DE UNA FAMILIA</title>
+</head>
+<h1>CACULAR LA MEDIA DE EDAD DE UNA FAMILIA</h1>
+<body>
+	<script>
+
+		function saltarLinea() {
+	
+			document.write("<br>");	
+			document.write("<br>");	
+			document.write("<br>");	
+	
+		}  
+	
+		function imprimir(frase) {
+	
+			document.write(frase);
+			saltarLinea();
+	
+		}
+
+       var canMiemnbros=parseInt(prompt("Ingrese la cantidad de miembros de la familia"));
+       var contador=1;
+	   var totalEdades=0
+
+       while(contador<=canMiemnbros){
+		
+        var edad=parseInt(prompt("Ingrese la edad del miembro de la familia"));
+		totalEdades=totalEdades+edad;
+        contador++;
+		
+       }
+      var edadMedia=totalEdades/canMiemnbros;
+	  imprimir("La cantidad de miembros de la familia es:"+ canMiemnbros);
+	  imprimir("El total de las edades es: " + totalEdades);
+	  imprimir("La media de las edades es: " + edadMedia);
+	  imprimir("fin");
+	</script>
+</body>
+</html>
