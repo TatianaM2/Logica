@@ -2,7 +2,18 @@
 body{
     background: #CCCCCC;
 }
+#banner{
+    width: 100%;
+}
 
+
+h1 {
+    text-align: center;
+    height: 150px;
+    border: 10px solid black;
+    padding: 20px;
+    margin: 40px;
+}
 p{ 
     text-align: center;
     background: #CCCCCC;
@@ -10,4 +21,8 @@ p{
 
 em strong{
     color:red;
+}
+#mision{
+
+    font-size: 20px;
 }
