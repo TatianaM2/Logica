@@ -1,18 +1,18 @@
 
-body{
-   
+.tituloPrincipal{
+  padding-left: 30px;
+}
+
+#banner{
+    width: 100%;
 }
 .principal{
     background:#CCCCCC;
     padding: 20px;
    
 }
-#banner{
-    width: 100%;
-}
 
-
-h1 {
+h2 {
     text-align: center;
     height: 150px;
     border: 10px solid black;
@@ -36,7 +36,7 @@ em strong{
     padding: 30px;
 
 }
-h2{
+h3{
     text-align: center;
 }
 .items{
